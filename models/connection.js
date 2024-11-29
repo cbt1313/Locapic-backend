@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const connectionString = process.env.CONNECTION_STRING;
+const connectionString = process.env.REACT_APP_CONNECTION_STRING;
 
 mongoose
 	.connect(connectionString, { connectTimeoutMS: 2000 })
